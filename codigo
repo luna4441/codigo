@@ -1,0 +1,25 @@
+1 // Fig. 10.4: Empleado.java
+2 // La superclase abstracta Empleado.
+3
+4 public abstract class Empleado
+5 {
+6 private String primerNombre;
+7 private String apellidoPaterno;
+8 private String numeroSeguroSocial;
+9
+10 // constructor con tres argumentos
+11 public Empleado( String nombre, String apellido, String nss )
+12 {
+13 primerNombre = nombre;
+14 apellidoPaterno = apellido;
+15 numeroSeguroSocial = nss;
+16 } // fin del constructor de Empleado con tres argumentos
+17
+18 // establece el primer nombre
+19 public void establecerPrimerNombre( String nombre )
+20 {
+21 primerNombre = nombre;
+22 } // fin del método establecerPrimerNombre
+23
+24 // devuelve el primer nombre
+25 public String obtenerPrimerNombre()
